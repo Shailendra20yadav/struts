@@ -1,5 +1,6 @@
 package test;
 
+import java.util.LinkedList;
 import java.util.List;
 import java.util.ListIterator;
 import java.util.RandomAccess;
@@ -7,6 +8,8 @@ import java.util.RandomAccess;
 public class ReverseList {
 	 private static final int REVERSE_THRESHOLD  =   18;
 	public static void main(String[] args) {
+		//LinkedList<String> l =new LinkedList<>();
+		
 		// TODO Auto-generated method stub
 
 	}
