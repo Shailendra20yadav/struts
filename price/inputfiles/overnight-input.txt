@@ -1,0 +1,50 @@
+171214-214501 -- dun-stg-app01 -- Starting Propagation
+171214-214501 -- dun-stg-app01 -- Catalog Dataload Started
+171214-214502 -- dun-stg-app01 -- Catalog Dataload | 16 files found on sftp server.
+171214-214503 -- dun-stg-app01 -- Catalog Dataload | Files exist | Continues to load the data
+171214-235650 -- dun-stg-app01 -- Catalog Dataload Successful!!
+171214-235650 -- dun-stg-app01 -- SEO URL Keyword generator Started
+171214-235650 -- dun-stg-app01 -- Extracting the stockdb data Started
+171214-235700 -- dun-stg-app01 -- SEO URL Keyword generator Successful!!
+171214-235700 -- dun-stg-app01 -- Price Dataload entering into sleep mode for 180 seconds
+171214-235719 -- dun-stg-app01 -- Extracting the stockdb data Successful!!
+171215-001000 -- dun-stg-app01 -- Price Dataload Started
+171215-001120 -- dun-stg-app01 -- Price Dataload Successful!!
+171215-001120 -- dun-stg-app01 -- MarkWasPriceCmd Started!!
+171215-001136 -- dun-stg-app01 -- MarkWasPriceCmd Successful!!
+171215-001136 -- dun-stg-app01 -- ShowOrHideWasPricesCmd Started!!
+171215-001249 -- dun-stg-app01 -- ShowOrHideWasPricesCmd Successful!!
+171215-001250 -- dun-stg-app01 -- Solr Indexing for Staging Started!!
+Backing Solr Staging data Up Before Propagation for Locale=en_US!!
+Backup Successful for Solr Staging and Locale=en_US!!
+Pre-Process completed successfully continue wtih index
+171215-002714 -- dun-stg-app01 -- Solr Indexing for Staging Completed!!!
+171215-002717 -- dun-stg-app01 -- DB Consolidation Started!!
+171215-005000 -- dun-stg-app01 -- DB Consolidation Completed Successfully!!
+171215-005005 -- dun-stg-app01 -- DB Propagation Started!!
+171215-010801 -- dun-stg-app01 -- DB Propagation Completed Successfully!!
+171215-010801 -- dun-stg-app01 -- Web Assets sync to Production Started!!
+171215-010804 -- dun-stg-app01 -- Web Assets sync to production Successful !!!!
+171215-010804 -- dun-stg-app01 -- Webserver RewriteMap sync to Staging and Production Started!!
+171215-011237 -- dun-stg-app01 -- Webserver RewriteMap files sync Successful !!!!
+171215-011237 -- dun-stg-app01 -- Solr propagation to Production Started!!
+171215-011238 -- dun-stg-app01 -- Solr propagation to Production Completed!!!
+171215-011238 -- dun-stg-app01 -- Full DB Registry Refresh Started!!
+171215-011238 -- dun-stg-app01 -- Starting Production Cache Clear!!
+171215-011239 -- dun-stg-app01 -- Production base Cache Clear completed on dun-prod-app01:9060!!
+171215-011239 -- dun-stg-app01 -- DB Registries Refresh Started!!
+Inserting or updating schconfig Broadcast Task -- none 
+171215-011241 -- dun-stg-app01 -- Production base Cache Clear completed on dun-prod-app02:9104!!
+171215-011243 -- dun-stg-app01 -- Production base Cache Clear completed on dun-prod-app03:9104!!
+171215-011245 -- dun-stg-app01 -- Production base Cache Clear completed on dun-prod-app04:9104!!
+171215-011247 -- dun-stg-app01 -- Production base Cache Clear completed on dun-prod-app05:9122!!
+171215-011249 -- dun-stg-app01 -- Production base Cache Clear completed on dun-prod-app06:9122!!
+171215-011250 -- dun-stg-app01 -- Production base Cache Clear completed on dun-prod-app01:9085!!
+171215-011251 -- dun-stg-app01 -- Production base Cache Clear completed on dun-prod-app03:9085!!
+171215-011318 -- dun-stg-app01 -- Stock Dataload on production Started!!
+171215-011321 -- dun-stg-app01 -- DB Registries Refresh Finished!!
+171215-025444 -- dun-stg-app01 -- Stock Dataload on production Successful !!!!
+171215-025444 -- dun-stg-app01 -- Extracting catalog data started
+171215-030158 -- dun-stg-app01 -- Extracting catalog data Successful!!
+171215-030158 -- dun-stg-app01 -- Extracting price data Started
+171215-030202 -- dun-stg-app01 -- Extracting price data Successful!!

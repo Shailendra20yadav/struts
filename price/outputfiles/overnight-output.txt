@@ -1,0 +1,16 @@
+PIM Catalog Load	wcs_overnight_jobs.sh	Successful	21:45:01	23:56:50	2:11:49
+SEO KeyWord Gen	wcs_overnight_jobs.sh	Successful	23:56:50	23:57:00	00:00:10
+Stock Article Extract	wcs_overnight_jobs.sh	Successful	23:56:50	23:57:19	00:00:29
+Price Data Load	wcs_overnight_jobs.sh	Successful	00:10:00	00:11:20	00:1:20
+ShowOrHideWasPrices	wcs_overnight_jobs.sh	Successful	00:11:36	00:12:49	00:1:13
+SOLR Index	wcs_overnight_jobs.sh	Successful	00:12:50	00:27:14	00:14:24
+DB Consolidation	wcs_overnight_jobs.sh	Successful	00:27:17	00:50:00	00:22:43
+Data Propagation	wcs_overnight_jobs.sh	Successful	00:50:05	01:08:01	00:17:56
+Web Assets Propagation	wcs_overnight_jobs.sh	Successful	01:08:01	01:08:04	00:00:3
+301 Redirects	wcs_overnight_jobs.sh	Successful	01:08:04	01:12:37	00:4:33
+SOLR Propagation	wcs_overnight_jobs.sh	Successful	01:12:37	01:12:38	00:00:1
+DynaCache Clear	wcs_overnight_jobs.sh	Successful	01:12:38	01:12:51	00:00:13
+DB Registry Refresh	wcs_overnight_jobs.sh	Successful	01:12:39	01:13:21	00:00:42
+Stock Load (PROD)	wcs_overnight_jobs.sh	Successful	01:13:18	02:54:44	1:41:26
+Catalog extract	wcs_overnight_jobs.sh	Successful	02:54:44	03:01:58	00:7:14
+Price Extract	wcs_overnight_jobs.sh	Successful	03:01:58	03:02:02	00:00:4

@@ -31,6 +31,7 @@ public class Lookup {
 			searcListFileName = prop.getProperty("generatedUniquePartNubmersFile");
 			lookupResultFileName = prop.getProperty("lookupResultFileName");
 			outputFilePath = prop.getProperty("outputFilePath");
+			//foundMatch = Boolean.valueOf(prop.getProperty("generateForMatchedRecord"));
 			
 			//System.out.println(inputFilePath);
 		}catch(Exception e){
@@ -130,7 +131,7 @@ public class Lookup {
 				String [] lineValues = line.split(",");
 				list.addAll(Arrays.asList(lineValues));
 			}else{
-				list.add(line);
+				list.add(line.trim());
 			}
 			
 		}
