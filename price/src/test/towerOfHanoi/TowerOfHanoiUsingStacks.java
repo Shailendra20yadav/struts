@@ -19,6 +19,7 @@ package test.towerOfHanoi;
  {
 
      public static int N;
+     public static int moves=0;
 
      /* Creating Stack array  */
 
@@ -82,7 +83,7 @@ package test.towerOfHanoi;
              int d = tower[a].pop();                                             
 
              tower[c].push(d);
-
+             moves++;
             display();  
              displayTowers();
 
@@ -96,7 +97,7 @@ package test.towerOfHanoi;
     	 System.out.println("tower 1= "+ tower[1]);
     	 System.out.println("tower 2= "+ tower[2]);
     	 System.out.println("tower 3= "+ tower[3]);
-    	 System.out.println("-------------------------------------------------------------------------------------");
+    	 System.out.println("--------------------------------Moves = "+moves+"-----------------------------------------------------");
      }
      
 
