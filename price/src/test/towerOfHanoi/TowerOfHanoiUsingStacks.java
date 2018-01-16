@@ -4,6 +4,28 @@ package test.towerOfHanoi;
 
  * Java Program to Solve Tower of Hanoi Problem using Stacks
 
+The steps to follow are
+
+Step 1 − Move n-1 disks from source to aux
+Step 2 − Move nth disk from source to dest
+Step 3 − Move n-1 disks from aux to dest
+
+A recursive algorithm for Tower of Hanoi can be driven as follows −
+
+START
+Procedure Hanoi(disk, source, dest, aux)
+
+   IF disk == 1, THEN
+      move disk from source to dest             
+   ELSE
+      Hanoi(disk - 1, source, aux, dest)     // Step 1
+      move disk from source to dest          // Step 2
+      Hanoi(disk - 1, aux, dest, source)     // Step 3
+   END IF
+   
+END Procedure
+STOP
+
  */
 
  
